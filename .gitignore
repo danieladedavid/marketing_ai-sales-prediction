@@ -1,0 +1,32 @@
+# Created by pytest automatically.
+# Ambiente virtual
+.venv/
+venv/
+
+# Cache e arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Cache de notebooks
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dado bruto original grande
+data/raw/base_mensal.csv
+
+# Segredos do Streamlit
+.streamlit/secrets.toml
