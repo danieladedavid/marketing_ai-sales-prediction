@@ -27,8 +27,8 @@ Diante disso, o projeto busca responder perguntas como:
 marketing_ai-sales-prediction/
 │
 ├── data/
-│   ├── raw/                        # dados brutos
-│   │   └── base_mensal.csv
+│   ├── raw/                        # dados brutos 
+│   │   └── base_mensal.csv*
 │   │
 │   └── processed/                  # dados processados
 │       ├── df_processed.parquet
@@ -73,6 +73,9 @@ marketing_ai-sales-prediction/
     └── workflows/
         └── ci.yml                  # workflow para instalação de dependências e execução dos testes
 ```
+
+\* O arquivo `base_mensal.csv` corresponde à base de dados bruta original do projeto. Ele não foi incluído diretamente no repositório devido ao seu tamanho. O acesso ao arquivo pode ser feito por meio do link disponibilizado no [Google Drive](https://drive.google.com/file/d/1ThchSNOIvqYpfcqxyYt9NwXjg4LYUJF3/view?usp=drive_link).
+
 
 ## 4. Requisitos
 
